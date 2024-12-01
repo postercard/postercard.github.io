@@ -1,0 +1,73 @@
+body{
+    background-color: #5266a0;
+    font-family: 'Arsenal';
+    color: white;
+    font-size: 1.8em;
+    width: 1152px;
+    padding: 64px;
+    margin: 0 auto;
+    align-content: center;
+}
+h2{
+    font-family: 'Arsenal';
+    text-align: left;
+    font-size: 2.14em;
+}
+.statute_text{
+    padding: 0;
+    padding-right: 25px;
+    margin: 0;
+    width: 952px;
+}
+.links{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.links_full{
+    margin: 100px 0 100px 0;
+    padding: 0;
+}
+.button{
+    width: 175px;
+    margin:0;
+    padding:0;
+    float: right;
+}
+.note{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+ol {
+    list-style-type: upper-roman;
+    margin-top: 1ex;
+    margin-bottom: 1ex;
+}
+ul {
+    margin-top: 1ex;
+    margin-bottom: 1ex;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li{
+    margin-top: .5ex;
+    margin-bottom: .5ex;
+}
+
+ol > li > ol {
+    list-style-type: decimal;
+    padding-left: 0;
+}
+
+ol > li > ol > li > ol{
+    list-style-type: upper-latin;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+a{
+    color: #dc971e;
+}
